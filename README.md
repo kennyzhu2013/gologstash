@@ -1,9 +1,12 @@
 # gologstash
 logstash version with golang coding
+
 运行：生成应用程序后如hekad -f config配置文件
+
 配置文件用法示例：
 [hekad]
-maxprocs = 2
+#协程个数...
+maxprocs = 4
 
 [LogstreamerInput]
 decoder = "excel_transform_decoder"
