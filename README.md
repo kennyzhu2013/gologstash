@@ -1,6 +1,9 @@
 # gologstash
 logstash version with golang coding
-
+编译代码步骤如下：
+git clone https://github.com/kennyzhu2013/gologstash.git
+注意GOPATH设为当前目录代码目录
+go install mozilla-services/heka/cmd/hekad
 运行：生成应用程序后如hekad -f config配置文件
 
 配置文件用法示例：
